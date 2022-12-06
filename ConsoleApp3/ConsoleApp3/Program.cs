@@ -7,7 +7,7 @@ List<int> y_axis = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
 int result = 0;
 
-// Читання з файлу
+// Читання з файлу. Перша клітинка - кентавр, друга - ціль.
 string path = (@"C:\Users\Dalba\source\repos\ConsoleApp3\ConsoleApp3\INPUT.txt");
 string inputfile = File.ReadAllText(path);
 
